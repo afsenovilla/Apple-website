@@ -1,0 +1,231 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    margin: -1% 15% 0 15%;
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header2_productIcon{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.header2_productText{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+}
+.productsIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.headerText1{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerIcons{
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    height: 10vh;
+    margin-bottom: 2%;
+}
+.fondoPubli1{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    background-color: black;
+}
+.textoPubli1{
+    display: flex;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    margin-top: 6%;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f7;
+    font-size: 55px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.botonPubli1_click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botonPubli1_boton{
+    width: 14%;
+    margin-top: 10px;
+    margin-left: 45%;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 8px;
+    border-radius: 90px;
+    border-style: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.pressPlay{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.publi2{
+    display: flex;
+    justify-content: center;
+}
+.fondoPubli2{
+    width: 100vw;
+    height: 108vh;
+    display: flex;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textoPubli2{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f7;
+    font-size: 55px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.textoPubli2_nuevo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: coral;
+    margin-top: 60px;
+    margin-bottom: -5px;
+}
+.textoPubli2_imposible{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+    font-size: 25px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;
+}
+.textoPubli2_precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+.comprarMBP{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 595px;
+    padding-left: 18px;
+    padding-right: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 90px;
+    border-style: none;
+    background-color: rgb(46, 117, 250);
+    color: #f5f5f7;
+    font-size: 15px;
+}
+.masInfo{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(46, 117, 250);
+}
+.comprarMBP_click{
+    display: flex;
+}
+.preMBP{
+    width: 100vw;
+    height: 50%;
+}
+.MBPfoto{
+    display: flex;
+    margin-top: 50px;
+    max-width: 90vw;
+    width: 80%;
+    margin-left: 10%;
+}
+.fondoPubli3{
+    background-image:url(assets/mac_mini.jpeg);
+    background-repeat: no-repeat;}
+.textoPubli3{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f7;
+    font-size: 55px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.textoPubli3_nuevo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: coral;
+    margin-bottom: -5px;
+    padding-top: 50px;
+}
+.textoPubli3_maton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+    font-size: 25px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;
+}
+.textoPubli3_precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+.preMini{
+    height: 55vw;
+}
