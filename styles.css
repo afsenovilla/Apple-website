@@ -90,9 +90,10 @@ header{
     justify-content: center;
 }
 .botonPubli1_boton{
-    width: 14%;
+    width: 220px;
     margin-top: 10px;
     margin-left: 45%;
+    padding-top: 10px;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 8px;
@@ -103,6 +104,7 @@ header{
 .pressPlay{
     margin-top: 10px;
     margin-left: 10px;
+    padding-bottom: 11px;
 }
 .publi2{
     display: flex;
@@ -110,7 +112,7 @@ header{
 }
 .fondoPubli2{
     width: 100vw;
-    height: 108vh;
+    height: 112vh;
     display: flex;
     background-color: black;
     margin-top: 10px;
@@ -228,4 +230,10 @@ header{
 }
 .preMini{
     height: 55vw;
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-in-out 0.2s;
 }
